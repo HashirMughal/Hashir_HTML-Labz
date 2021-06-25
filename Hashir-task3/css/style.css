@@ -1,0 +1,65 @@
+body{
+    background-color: #ffeee6;
+    margin:0%;
+}
+.logoimg{
+    text-align: center;
+    padding-top: 10px;
+}
+.headtitle{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    border-bottom: solid rgb(150, 150, 250);
+    margin-right: 200px;
+    margin-left: 200px;
+}
+h1{
+    font-size: 22px;
+    color: rgb(243, 83, 83);
+    padding-left: 200px;
+    padding-right: 200px;
+}
+h2{
+    font-size: 22px;
+    color: rgb(243, 83, 83);    
+    padding-left: 200px;
+    padding-right: 200px;
+}
+h3{
+    font-size: 22px;
+    color: rgb(243, 83, 83);
+    padding-left: 200px;
+    padding-right: 200px;    
+}
+.firstart{
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.secondart{
+    padding-right: 200px;
+    padding-left: 200px;    
+}
+.thirdart{
+    padding-right: 200px;
+    padding-left: 200px;    
+}
+.mainimg{
+    width: 860px;
+}
+.tablehead{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom:solid rgb(150, 150, 250);
+    margin-right: 200px;
+    margin-left: 200px;
+}
+table,th,td{
+    margin-top: 10px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding-left: 110px;
+    padding-right: 110px;
+}
