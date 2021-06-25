@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(rgb(248, 217, 217), rgb(109, 151, 109), rgb(90, 90, 250));
+}
+h1{
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+.introduction{
+    background-color:rgb(10, 10, 10);
+    color: white;
+    font-style: italic;
+    font-size: 28px;
+}
+.hobbies{
+    background-color:black;
+    color: white;
+}
+.Strength{
+    background-color: black;
+    color: white;
+}
+.intro{
+    background-color: deepskyblue;
+    border-radius: 10px;
+}
+.hobbi{
+    background-color: rgb(116, 116, 243);
+    border-radius: 10px;
+}
+.stren{
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+.image{
+    border-radius: 20px;
+    border:solid black;
+    width: 200px;
+}
