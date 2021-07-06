@@ -1,0 +1,12 @@
+body{
+    margin: 10px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    padding: 20px;
+    border: 1px solid;
+    box-sizing: border-box;
+    display: inline-block;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo_Selector</title>
+    <link rel="stylesheet" href="/normalize.css">
+    <style>
+        p::first-letter{
+            font-size: 32px;
+            font-style: italic;
+
+        }
+        ul li:first-child{
+            color:blue;
+        }
+        ul li:nth-child(even){
+            color: red;
+            font-style: italic;
+        }ul li:nth-child(3n){
+            font-weight: bold;
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <p><span class="Lcapital">L</span> orem ipsum dolor sit amet.</p>
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,59 @@
+button{
+    background-color: royalblue;
+    font-weight: bold;
+}
+body{
+    background-color:slategray ;
+}
+.nav{
+    text-align: right;
+}
+h1{
+    text-align: center;
+    background-color: royalblue;
+}
+h2{
+    padding-left: 50px;
+}
+h3{
+    padding-left: 50px;
+}
+h4{
+    padding-left: 50px;
+}
+h5{
+    padding-left: 50px;
+}
+li{
+    display: inline-block;
+    background-color: slategray;
+    font-weight: bold;
+}
+p{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+.home1{
+    background-color: orchid;
+    border-radius: 40px;
+    border:solid black;
+    height: 500px;
+}
+.courses1{
+    background-color: skyblue;
+    border-radius: 40px;
+    border:solid black;
+}
+.student1{
+    background-color: thistle;
+    border-radius: 40px;
+    border:solid black;
+    height: 500px;
+}
+.time1{
+    background-color: powderblue;
+    border-radius: 40px;
+    border:solid black;
+    height: 500px;
+}
