@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float-Example3</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .box{
+            float: left;
+            width: 50%;
+            padding: 50px;
+            height: 300px;
+        }
+        .clearfix{
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <h1>Equal height boxes</h1>
+    <p>
+      floating Boxes with same heifhts:  
+    </p>
+    <div class="clearfix">
+        <div class="box" style="background-color: cyan;">
+            <h2>Box 1</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="box" style="background-color: deepskyblue;">
+            <h2>Box 2</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+</body>
+</html>
