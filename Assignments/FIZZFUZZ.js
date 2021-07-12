@@ -3,17 +3,16 @@
 //divisible by 5 = buzz
 //divisible by both = fizzbuzz
 //not divisible by both = input
-for(let i = 3; i<=45; i++ ){
-    if(i % 3 == 0 && i % 5 == 0){
-        console.log(i,'FIZZBUZZ');
-    }
-    else if(i % 3 == 0){
-        console.log(i,'fizz')
-    }
-    else if(i % 5 == 0){
-        console.log(i,'buzz')
-    }
-    else{
-        console.log(i,'Not Divisible by both');
-    }
+let 1=5;
+if(i % 3 == 0 && i % 5 == 0){
+    console.log(i,'FIZZBUZZ');
+}else if(i % 3 == 0){
+    console.log('FIZZ');
+}else if(i % 5 == 0){
+    console.log(i,'BUZZ');
+}else if(i % 3 != 0 && i % 5 != 0){
+    console.log(i);
+}
+else{
+    console.log('not a number');
 }
