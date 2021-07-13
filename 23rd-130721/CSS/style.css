@@ -1,0 +1,52 @@
+html{
+    min-width: 100%;
+    background-color:slateblue;
+    box-shadow:  0 0 8px 4px rgb(182, 182, 241);
+}
+body{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.clearfix{
+    clear: both;
+}
+h1{
+    color: black;
+}
+/* h2{
+    border-bottom: 1px solid rgb(175, 160, 160);
+} */
+#container{
+    width: 80%;
+    background-color: white;
+    margin: 30px auto 0 auto ;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+.first-box{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px 0;
+    padding: 10px;
+    color: white;
+    background-color: blueviolet;
+}
+.second-box{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px 0;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+}
+.third-box{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px 0;
+    padding: 10px;
+    color: white;
+    background-color: rgb(255, 29, 199);
+}
