@@ -1,0 +1,30 @@
+body{
+    background-color:silver;
+}
+header{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+#row{
+    display: grid;
+    grid-column-gap: 15px;
+    grid-template-columns: auto auto auto;
+    background-color: silver;
+    margin-left: 30px;
+    margin-right: 30px;
+
+
+}
+.col{
+    background-color: white;
+    /* border: 1px solid black; */
+    padding: 10px;
+    font-size: 2opx;
+    text-align: center;
+    border: 1px solid black;
+}
+img{
+    width: 20rem;
+    height: 20rem;
+}

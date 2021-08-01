@@ -1,0 +1,35 @@
+body{
+    background-color: slateblue;
+}
+.container{
+    display: grid;
+    grid-column-gap: 20px;
+    /* grid-template-columns: auto auto auto; */
+    background-color: silver;
+    margin-left: 30px;
+    margin-right: 30px;
+
+
+}
+.column1{
+    background-color: silver ;
+    border: 1px solid black;
+    text-align: center;
+    padding-left: 10px;
+
+}
+.column2{
+    background-color: silver ;
+    border: 1px solid black;
+    text-align: center;
+}
+.column3{
+    background-color: silver ;
+    border: 1px solid black;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+}
