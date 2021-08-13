@@ -4,7 +4,7 @@ if(isset($_GET['submit'])){
     $email = $_GET['email'];
     
     if($name==='' || $email===''){
-        echo "Form is not submited";
+        echo "Submit again! Thank you";
     }
     else{
         echo $name;
